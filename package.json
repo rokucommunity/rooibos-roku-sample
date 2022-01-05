@@ -10,6 +10,6 @@
     "rooibos-roku": "^4.4.2"
   },
   "scripts": {
-    "build": "npx bsc"
+    "build-tests": "npx bsc"
   }
 }
