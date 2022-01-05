@@ -1,0 +1,24 @@
+{
+  "rootDir": "src",
+  "files": [
+    "manifest",
+    "source/*.*",
+    "source/**/*.*",
+    "components/**/*.*"
+  ],
+  "autoImportComponentScript": true,
+  "createPackage": false,
+  "stagingFolderPath": "build",
+  "plugins": [
+    "rooibos-roku"
+  ],
+  "rooibos": {
+    "isRecordingCodeCoverage": false,
+    "testsFilePattern": null,
+    "tags": ["!integration", "!deprecated", "!fixme"],
+    "showOnlyFailures": true,
+    "catchCrashes": true,
+    "lineWidth": 70
+  },
+  "sourceMap": true
+}

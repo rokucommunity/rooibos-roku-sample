@@ -1,0 +1,15 @@
+{
+  "name": "rooibos-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "brighterscript": "^0.41.5",
+    "rooibos-roku": "^4.4.2"
+  },
+  "scripts": {
+    "build": "npx bsc"
+  }
+}

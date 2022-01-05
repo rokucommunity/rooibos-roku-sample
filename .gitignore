@@ -1,0 +1,54 @@
+.DS_Store
+build
+.env
+
+###BrightScript specific
+dist/apps
+out/
+
+#Rooibos generated
+rooibosFunctionMap.brs
+
+### Eclipse project files
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+.classpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+#node
+node_modules/
+frameworkTests/source/tests/rooibosDist.brs
+outRun
+out
+rooibosDist.brs
+
+# Yarn
+yarn.lock
+yarn-error.log
+/outRun/
+node_modules/
+out
+**/roku_modules/
+package-lock.json
+
+!.vscode
+.vscode/.env
+dist/
