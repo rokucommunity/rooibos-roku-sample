@@ -1,10 +1,16 @@
 {
+  "description": "this config allows for an easy way for developers to only compile what they are workig on, to speed things up. Ignore it from source control",
   "rootDir": "src",
   "files": [
     "manifest",
     "source/*.*",
     "source/**/*.*",
-    "components/**/*.*"
+    "components/**/*.*",
+    "!**/*.spec.bs",
+    "**/BaseTest*.spec.bs",
+    "**/CustomTestUtilsYouNeed.spec.bs",
+    "**/File1YouAreRunning*.spec.bs",
+    "**/File2YouAreRunning*.spec.bs"
   ],
   "autoImportComponentScript": true,
   "createPackage": false,

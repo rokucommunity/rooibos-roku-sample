@@ -10,6 +10,7 @@
     "rooibos-roku": "^4.5.1"
   },
   "scripts": {
-    "build-tests": "npx bsc"
+    "build-tests": "npx bsc",
+    "build-tdd": "npx bsc --project bsconfig-tdd.json"
   }
 }
