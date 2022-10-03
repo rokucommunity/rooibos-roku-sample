@@ -6,8 +6,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "brighterscript": "^0.50.1",
-    "rooibos-roku": "^4.8.2"
+    "brighterscript": "0.52.3",
+    "rooibos-roku": "5.2.3",
+    "undent": "0.1.0"
   },
   "scripts": {
     "build-tests": "npx bsc",
