@@ -1,16 +1,15 @@
 {
   "name": "rooibos-sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample application demonstrating how to use the rooibos testing framework for Roku.",
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "brighterscript": "0.52.3",
-    "rooibos-roku": "5.2.3",
+    "rooibos-roku": "5.4.2",
     "undent": "0.1.0",
-    "roku-deploy": "3.7.0",
-    "roku-log-bsc-plugin": "0.6.1",
+    "roku-deploy": "3.10.0",
+    "roku-log-bsc-plugin": "0.7.0",
     "bslib": "1.0.0"
   },
   "scripts": {
