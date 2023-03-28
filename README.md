@@ -18,4 +18,4 @@ Clone this project so you can start playing with Rooibos right away. It demonstr
 - Basic test usage
   - `beforeEach`
   - `beforeEach` for a specific group
-  - mocking
+  - Mocking
