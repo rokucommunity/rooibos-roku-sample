@@ -15,5 +15,15 @@
   "scripts": {
     "build-tests": "npx bsc",
     "build-tdd": "npx bsc --project bsconfig-tdd.json"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgejecook/rooibos-roku-sample.git"
+  },
+  "keywords": [
+    "rooibos",
+    "roku",
+    "testing"
+  ],
+  "homepage": "https://github.com/georgejecook/rooibos-roku-sample"
 }
