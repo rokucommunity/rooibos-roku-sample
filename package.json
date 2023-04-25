@@ -10,8 +10,7 @@
     "rooibos-roku": "5.2.3",
     "undent": "0.1.0",
     "roku-deploy": "3.7.0",
-    "roku-log-bsc-plugin": "0.6.1",
-    "bslib": "1.0.0"
+    "roku-log-bsc-plugin": "0.6.1"
   },
   "scripts": {
     "build-tests": "npx bsc",
