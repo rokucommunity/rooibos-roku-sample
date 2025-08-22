@@ -8,9 +8,6 @@
       "consoleOutput": "full",
       "internalConsoleOptions": "neverOpen",
       "preLaunchTask": "build-tests",
-      "envFile": "${workspaceFolder}/.vscode/.env",
-      "host": "${env:ROKU_DEV_TARGET}",
-      "password": "${env:ROKU_DEVPASSWORD}",
       "retainStagingFolder": true,
       "stopOnEntry": false,
       "files": [
@@ -28,7 +25,6 @@
       "sourceDirs": ["${workspaceFolder}/src"],
       "enableDebuggerAutoRecovery": true,
       "stopDebuggerOnAppExit": true,
-      "enableVariablesPanel": false,
       "injectRaleTrackerTask": false,
       "enableDebugProtocol": false
     },
@@ -39,9 +35,6 @@
       "consoleOutput": "full",
       "internalConsoleOptions": "neverOpen",
       "preLaunchTask": "build-tdd",
-      "envFile": "${workspaceFolder}/.vscode/.env",
-      "host": "${env:ROKU_DEV_TARGET}",
-      "password": "${env:ROKU_DEVPASSWORD}",
       "retainStagingFolder": true,
       "stopOnEntry": false,
       "files": [
@@ -59,7 +52,6 @@
       "sourceDirs": ["${workspaceFolder}/src"],
       "enableDebuggerAutoRecovery": true,
       "stopDebuggerOnAppExit": true,
-      "enableVariablesPanel": false,
       "injectRaleTrackerTask": false,
       "enableDebugProtocol": false
     }
